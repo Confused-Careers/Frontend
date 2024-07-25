@@ -1,0 +1,8 @@
+@keyframes peek {
+    0%, 100% { transform: translateY(100%); }
+    50% { transform: translateY(0); }
+  }
+  
+  .circle {
+    animation: peek 3s ease-in-out infinite;
+  }
